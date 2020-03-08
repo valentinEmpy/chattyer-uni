@@ -1,0 +1,25 @@
+<mvc:View controllerName="chattyer.controller.AuthPage" busyIndicatorDelay="0"
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m" 
+    xmlns:f="sap.f" 
+    xmlns:form="sap.ui.layout.form" 
+    xmlns:core="sap.ui.core">
+    <Page id="page" showHeader="false">
+        <VBox height="100%" alignItems="Center" justifyContent="Center">
+            <VBox>
+                <HBox alignItems="Center" justifyContent="End">
+                    <Title text="Username"/>
+                    <Input id="usernameInput" class="sapUiSmallMarginBegin"/>
+                </HBox>
+                <HBox alignItems="Center" justifyContent="End">
+                    <Title text="Password"/>
+                    <Input id="passwordInput" type="Password" class="sapUiSmallMarginBegin"/>
+                </HBox>
+            </VBox>
+            <HBox class="sapUiSmallMarginTop" alignItems="Center" justifyContent="Center">
+                <Button text="Log In" id="loginButton" type="Emphasized" press="onLogin"/>
+                <Button class="sapUiSmallMarginBegin" text="Register" press="onRegister"/>
+            </HBox>
+        </VBox>
+    </Page>
+</mvc:View>

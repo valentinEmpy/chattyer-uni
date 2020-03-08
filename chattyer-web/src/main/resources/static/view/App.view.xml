@@ -1,0 +1,9 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" 
+	displayBlock="true">
+
+	<Shell appWidthLimited="false">
+		<App id="chattyer" 
+			backgroundOpacity="0.5"/>
+	</Shell>
+</mvc:View>

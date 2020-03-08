@@ -1,0 +1,68 @@
+<core:FragmentDefinition xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m" 
+    xmlns:f="sap.f" 
+    xmlns:form="sap.ui.layout.form" 
+    xmlns:core="sap.ui.core">
+    <Dialog beforeClose="onBeforeAddChatbotDialogClose">
+        <Wizard id="addChatbotWizard" class="sapUiResponsivePadding--header sapUiResponsivePadding--content" finishButtonText="Create" complete="onAddChatbotWizardCompleted">
+            <WizardStep id="nameLanguageStep" title="Name and Language" complete="onNameLanguageStepComplete" validated="false">
+                <MessageStrip class="sapUiSmallMarginBottom" text="Pick the name and the language for the chatbot" showIcon="true"/>
+                <form:SimpleForm editable="true">
+                    <Label text="Name" required="true"/>
+                    <Input id="chatbotNameInput" valueStateText="Enter minimum 6 to maximum 30 alphabetic characters (_ allowed)" valueState="{/chatbotNameState}" liveChange="validateChatbotName" placeholder="Enter the name here"/>
+                    <Label text="Language"/>
+                    <Select selectedKey="en" id="chatbotLanguageSelect">
+                        <core:Item key="en" text="English"/>
+                        <core:Item key="bg" text="Bulgarian"/>
+                    </Select>
+                </form:SimpleForm>
+            </WizardStep>
+            <WizardStep id="intentsStep" title="Intents" complete="onIntentsStepComplete" validated="false">
+                <MessageStrip class="sapUiSmallMarginBottom" text="Define all possible intents your chatbot understands" showIcon="true"/>
+                <List id="intentsList" width="450px" mode="Delete" delete="deleteIntent" enableBusyIndicator="true" growing="true" items="{/intentsList}">
+                    <StandardListItem title="{name}"/>
+                </List>
+                <form:SimpleForm editable="true">
+                    <Label text="Name"/>
+                    <Input id="intentNameInput" valueStateText="Min length is 6, max 30. Allowed chars are alphabetic symbols and _" valueState="{/intentNameState}" liveChange="validateIntentName" placeholder="Intent name (alphabetic, _)"/>
+                    <Button id="addIntentButton" text="Add" enabled="false" press="addIntent"/>
+                </form:SimpleForm>
+            </WizardStep>
+            <WizardStep id="samplesStep" title="Samples" complete="onSamplesStepComplete" validated="false">
+                <MessageStrip class="sapUiSmallMarginBottom" text="Define samples for all intents in order to train your chatbot" showIcon="true"/>
+                <List id="samplesList" width="450px" mode="Delete" delete="deleteSample" enableBusyIndicator="true" growing="true" items="{/samplesList}">
+                    <StandardListItem title="{text}" description="{intent}"/>
+                </List>
+                <form:SimpleForm editable="true">
+                    <Label text="Sentence"/>
+                    <Input id="sampleTextInput" valueStateText="Minimum length is 6, max 256" valueState="{/sampleTextState}" liveChange="validateSampleText" placeholder="Sample sentence (6-256 chars)"/>
+                    <Label text="Intent"/>
+                    <Select id="sampleIntentSelect" items="{/intentsList}">
+                        <core:Item text="{name}"/>
+                    </Select>
+                    <Button id="addSampleButton" text="Add" enabled="false" press="addSample"/>
+                </form:SimpleForm>
+            </WizardStep>
+            <WizardStep id="responsesStep" title="Responses" complete="onResponsesStepComplete" validated="false">
+                <MessageStrip class="sapUiSmallMarginBottom" text="Define the response for each intent" showIcon="true"/>
+                <List id="responsesList" width="450px" mode="Delete" delete="deleteResponse" enableBusyIndicator="true" growing="true" items="{/responsesList}">
+                    <StandardListItem title="{value}" description="{type} - {intent}"/>
+                </List>
+                <form:SimpleForm editable="true">
+                    <Label text="Type"/>
+                    <Select selectedKey="static" id="responseTypeSelect">
+                        <core:Item key="static" text="static"/>
+                        <core:Item key="http_call_generated" text="http_call_generated"/>
+                    </Select>
+                    <Label text="Intent"/>
+                    <Select id="responseIntentSelect" items="{/intentsList}">
+                        <core:Item text="{name}"/>
+                    </Select>
+                    <Label text="Value (Sentence or Http URL)"/>
+                    <Input id="responseValueInput" valueStateText="Minimum length is 6, max 512" valueState="{/responseValueState}" liveChange="validateResponseValue" placeholder="Value (Sentence or Http URL)"/>
+                    <Button id="addResponseButton" text="Add" enabled="false" press="addResponse"/>
+                </form:SimpleForm>
+            </WizardStep>
+        </Wizard>
+    </Dialog>
+</core:FragmentDefinition>

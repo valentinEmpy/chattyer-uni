@@ -1,0 +1,43 @@
+version: '3.1'
+
+services:
+  chattyerdb:
+    container_name: chattyer-postgresql
+    image: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=chattyerdb
+  chattyer:
+    container_name: chattyer-web
+    build: chattyer
+    image: chattyer:dev
+    ports:
+      - "8080:8080"
+    depends_on:
+      - chattyerdb
+    environment:
+      - CHATTYER_WIT_BASE_APP_ID=873773386469858
+      - CHATTYER_WIT_BASE_TOKEN=VBC2EZ5XCGLPXFCDZTQ22Z3Q5A2YUSMU
+  serveo:
+    container_name: chattyer-serveo
+    image: taichunmin/serveo:latest
+    tty: true
+    stdin_open: true
+    depends_on:
+      - chattyer
+    command: >
+      autossh -M 0
+      -o ServerAliveInterval=60
+      -o ServerAliveCountMax=3
+      -o ExitOnForwardFailure=yes
+      -o StrictHostKeyChecking=no
+      -R chattyer-demo:80:chattyer:8080
+      serveo.net
+
+volumes:
+  pgdata:

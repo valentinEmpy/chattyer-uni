@@ -1,0 +1,119 @@
+{
+    "_version": "1.21.0",
+    "sap.app": {
+        "id": "chattyer",
+        "type": "application",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "title": "{{title}}",
+        "description": "{{appDescription}}",
+        "ach": "ach"
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "supportedThemes": ["sap_fiori_3"]
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "chattyer.view.App",
+            "type": "XML"
+        },
+        "dependencies": {
+            "minUI5Version": "1.77.2",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {},
+                "sap.ui.layout": {},
+                "sap.ui.commons": {},
+                "sap.suite.ui.commons": {},
+                "sap.suite.ui.microchart": {}
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "chattyer.i18n.i18n"
+                }
+            },
+            "": {
+                "type": "sap.ui.model.json.JSONModel"
+            }
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewType": "XML",
+                "viewPath": "chattyer.view",
+                "controlId": "chattyer",
+                "controlAggregation": "pages",
+                "transition": "show",
+                "bypassed": {
+                    "target": ["notFound"]
+                }
+            },
+            "routes": [
+                {
+                    "pattern": "auth",
+                    "name": "authPage",
+                    "target": "authPage"
+                },
+                {
+                    "pattern": "",
+                    "name": "mainPage",
+                    "target": "mainPage"
+                }
+            ],
+            "targets": {
+                "authPage": {
+                    "viewPath": "chattyer.view",
+                    "viewName": "AuthPage",
+                    "viewLevel": 0
+                },
+                "mainPage": {
+                    "viewPath": "chattyer.view",
+                    "viewName": "MainPage",
+                    "viewLevel": 1
+                },
+                "mainPageHome": {
+                    "parent": "mainPage",
+                    "viewPath": "chattyer.view",
+                    "viewName": "Home",
+                    "controlId": "page",
+                    "controlAggregation": "content",
+                    "viewLevel": 2
+                },
+                "notFound": {
+                    "viewPath": "chattyer.view",
+                    "viewName": "NotFound",
+                    "viewLevel": 0
+                }
+            }
+        },
+        "resources": {
+            "css": [
+                {
+                    "uri": "css/styles.css"
+                }
+            ]
+        }
+    }
+}

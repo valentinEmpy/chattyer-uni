@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns="sap.m" 
+    xmlns:tnt="sap.tnt" 
+    xmlns:core="sap.ui.core">
+    <tnt:ToolHeader>
+        <Image class="sapUiLargeMarginBegin" 
+            src="image/chattyer_logo.png" 
+            decorative="false" 
+            width="40px" 
+            press=".onHomeIconPress"/>
+        <Title text="{i18n>title}" titleStyle="H3"/>
+        <ToolbarSpacer/>
+        <Button text="Logout" press="onLogout"/>
+    </tnt:ToolHeader>
+</core:FragmentDefinition>

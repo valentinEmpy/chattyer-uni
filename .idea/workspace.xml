@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a56a199-727e-4185-8dc0-debf9dda1efe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/chattyer-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/chattyer-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/immutables/ChattyerImmutablesStyle.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/immutables/ChattyerImmutablesStyle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ChatbotDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ChatbotDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableChatbotDescriptor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableChatbotDescriptor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableChatbotDescriptor$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableChatbotDescriptor$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableChatbotDescriptor$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableChatbotDescriptor$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableChatbotDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableChatbotDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableIntent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableIntent$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableIntent$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableIntent$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableIntent$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableIntent$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableIntent.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableIntent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableMetadataEntity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableMetadataEntity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableMetadataEntity$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableMetadataEntity$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableMetadataEntity$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableMetadataEntity$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableMetadataEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableMetadataEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableResponse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableResponse$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableResponse$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableResponse$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableResponse$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableSample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableSample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableSample$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableSample$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableSample$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableSample$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/ImmutableSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Intent.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Intent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Response$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Response$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Sample$MetadataEntity$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Sample$MetadataEntity$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Sample$MetadataEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Sample$MetadataEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/SchemaVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/SchemaVersion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/visitors/ChatbotDescriptorVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/classes/chattyer/common/models/visitors/ChatbotDescriptorVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/generated-sources/annotations/chattyer/common/models/ImmutableChatbotDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/generated-sources/annotations/chattyer/common/models/ImmutableChatbotDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/generated-sources/annotations/chattyer/common/models/ImmutableIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/generated-sources/annotations/chattyer/common/models/ImmutableIntent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/generated-sources/annotations/chattyer/common/models/ImmutableMetadataEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/generated-sources/annotations/chattyer/common/models/ImmutableMetadataEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/generated-sources/annotations/chattyer/common/models/ImmutableResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/generated-sources/annotations/chattyer/common/models/ImmutableResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/generated-sources/annotations/chattyer/common/models/ImmutableSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/generated-sources/annotations/chattyer/common/models/ImmutableSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/chattyer-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/chattyer-core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/exceptions/InternalParsingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/exceptions/InternalParsingException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/exceptions/ParsingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/exceptions/ParsingException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/exceptions/SchemaValidationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/exceptions/SchemaValidationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/exceptions/ValidationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/exceptions/ValidationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/handlers/WitApplicationTrainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/handlers/WitApplicationTrainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/messages/Messages.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/messages/Messages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/package-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/package-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/processors/ChatbotDescriptorJsonSchemaValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/processors/ChatbotDescriptorJsonSchemaValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/processors/ChatbotDescriptorValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/processors/ChatbotDescriptorValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/processors/ChatbotDescriptorYamlParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/processors/ChatbotDescriptorYamlParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/processors/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/processors/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/util/JpaConverterJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/util/JpaConverterJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/util/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/classes/chattyer/core/util/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/chattyer-nlp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/chattyer-nlp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/ImmutableWitContext$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/ImmutableWitContext$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/ImmutableWitContext$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/ImmutableWitContext$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/ImmutableWitContext$InitShim.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/ImmutableWitContext$InitShim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/ImmutableWitContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/ImmutableWitContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/TokenProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/TokenProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/TokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/TokenProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/WitContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/WitContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/AnalyseMessageRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/AnalyseMessageRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/AnalyseMessageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/AnalyseMessageResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/AnalyseMessageResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/AnalyseMessageResponseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/AnalysesOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/AnalysesOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/AnalysesOperatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/AnalysesOperatorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/ImmutableAnalyseMessageRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/ImmutableAnalyseMessageRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/ImmutableAnalyseMessageRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/ImmutableAnalyseMessageRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/ImmutableAnalyseMessageRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/analyses/ImmutableAnalyseMessageRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/AbstractApplicationScopedWitRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/AbstractApplicationScopedWitRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/AbstractOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/AbstractOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/AbstractWitRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/AbstractWitRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/DefaultWitClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/DefaultWitClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/PaginatedWitRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/PaginatedWitRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/ResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/ResponseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/WitClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/WitClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/WitRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/WitRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ApplicationsOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ApplicationsOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ApplicationsOperatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ApplicationsOperatorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/DeleteApplicationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/DeleteApplicationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/GetApplicationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/GetApplicationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/GetApplicationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/GetApplicationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/GetApplicationResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/GetApplicationResponseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableDeleteApplicationRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableDeleteApplicationRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableDeleteApplicationRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableDeleteApplicationRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableDeleteApplicationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableDeleteApplicationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableGetApplicationRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableGetApplicationRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableGetApplicationRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableGetApplicationRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableGetApplicationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableGetApplicationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableListApplicationsWitRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableListApplicationsWitRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableListApplicationsWitRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableListApplicationsWitRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableListApplicationsWitRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutableListApplicationsWitRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutablePostApplicationRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutablePostApplicationRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutablePostApplicationRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutablePostApplicationRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutablePostApplicationRequest$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutablePostApplicationRequest$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutablePostApplicationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ImmutablePostApplicationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ListApplicationsResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ListApplicationsResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ListApplicationsResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ListApplicationsResponseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ListApplicationsWitRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/ListApplicationsWitRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/PostApplicationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/PostApplicationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/PostApplicationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/PostApplicationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/PostApplicationResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/apps/PostApplicationResponseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/DeleteEntityRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/DeleteEntityRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/DeleteEntityValueExpressionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/DeleteEntityValueExpressionRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/DeleteEntityValueRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/DeleteEntityValueRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntitiesOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntitiesOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntitiesOperatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntitiesOperatorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntityValueExpressionsOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntityValueExpressionsOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntityValueExpressionsOperatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntityValueExpressionsOperatorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntityValuesOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntityValuesOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntityValuesOperatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/EntityValuesOperatorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/GetEntityRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/GetEntityRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/GetEntityResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/GetEntityResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/GetEntityResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/GetEntityResponseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueExpressionRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueExpressionRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueExpressionRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueExpressionRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueExpressionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueExpressionRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableGetEntityRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableGetEntityRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableGetEntityRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableGetEntityRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableGetEntityRequest$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableGetEntityRequest$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableGetEntityRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableGetEntityRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableListEntitiesRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableListEntitiesRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableListEntitiesRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableListEntitiesRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableListEntitiesRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableListEntitiesRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityRequest$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityRequest$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueExpressionRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueExpressionRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueExpressionRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueExpressionRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueExpressionRequest$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueExpressionRequest$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueExpressionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueExpressionRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueRequest$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueRequest$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableUpdateEntityRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableUpdateEntityRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableUpdateEntityRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableUpdateEntityRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableUpdateEntityRequest$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableUpdateEntityRequest$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableUpdateEntityRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ImmutableUpdateEntityRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ListEntitiesRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ListEntitiesRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ListEntitiesResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ListEntitiesResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ListEntitiesResponseMapper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ListEntitiesResponseMapper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ListEntitiesResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/ListEntitiesResponseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/PostEntityRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/PostEntityRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/PostEntityResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/PostEntityResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/PostEntityResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/PostEntityResponseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/PostEntityValueExpressionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/PostEntityValueExpressionRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/PostEntityValueRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/PostEntityValueRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/UpdateEntityRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/entities/UpdateEntityRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/DeleteSampleRequest$SampleToDelete.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/DeleteSampleRequest$SampleToDelete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/DeleteSampleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/DeleteSampleRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableDeleteSampleRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableDeleteSampleRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableDeleteSampleRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableDeleteSampleRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableDeleteSampleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableDeleteSampleRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableListSamplesRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableListSamplesRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableListSamplesRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableListSamplesRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableListSamplesRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableListSamplesRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutablePostSampleRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutablePostSampleRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutablePostSampleRequest$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutablePostSampleRequest$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutablePostSampleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutablePostSampleRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableSampleToDelete$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableSampleToDelete$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableSampleToDelete$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableSampleToDelete$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableSampleToDelete.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ImmutableSampleToDelete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ListSamplesRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ListSamplesRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ListSamplesResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ListSamplesResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ListSamplesResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/ListSamplesResponseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/PostSampleRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/PostSampleRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/SamplesOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/SamplesOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/SamplesOperatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/client/samples/SamplesOperatorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/exceptions/WitRequestException.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/exceptions/WitRequestException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/messages/Messages.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/messages/Messages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/AnalysedMessage$EntityValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/AnalysedMessage$EntityValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/AnalysedMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/AnalysedMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ApplicationCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ApplicationCredentials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ExtendedEntity$Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ExtendedEntity$Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ExtendedEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ExtendedEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableAnalysedMessage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableAnalysedMessage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableAnalysedMessage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableAnalysedMessage$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableAnalysedMessage$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableAnalysedMessage$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableAnalysedMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableAnalysedMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplication$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplication$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplication$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplication$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplication$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplicationCredentials$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplicationCredentials$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplicationCredentials$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplicationCredentials$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplicationCredentials$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplicationCredentials$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplicationCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableApplicationCredentials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntity$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntity$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntity$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntity$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityValue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityValue$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityValue$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityValue$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityValue$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityValue$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityWithValue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityWithValue$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityWithValue$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityWithValue$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityWithValue$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityWithValue$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityWithValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableEntityWithValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableExtendedEntity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableExtendedEntity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableExtendedEntity$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableExtendedEntity$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableExtendedEntity$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableExtendedEntity$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableExtendedEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableExtendedEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableSample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableSample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableSample$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableSample$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableSample$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableSample$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableValue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableValue$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableValue$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableValue$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableValue$Json.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableValue$Json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ImmutableValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ListResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/ListResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/MediaTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/MediaTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/PredefinedEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/PredefinedEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/Sample$EntityWithValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/Sample$EntityWithValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/models/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/package-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/classes/chattyer/nlp/wit/package-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/ImmutableWitContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/ImmutableWitContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/analyses/ImmutableAnalyseMessageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/analyses/ImmutableAnalyseMessageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/apps/ImmutableDeleteApplicationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/apps/ImmutableDeleteApplicationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/apps/ImmutableGetApplicationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/apps/ImmutableGetApplicationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/apps/ImmutableListApplicationsWitRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/apps/ImmutableListApplicationsWitRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/apps/ImmutablePostApplicationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/apps/ImmutablePostApplicationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueExpressionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueExpressionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableDeleteEntityValueRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableGetEntityRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableGetEntityRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableListEntitiesRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableListEntitiesRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutablePostEntityRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutablePostEntityRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueExpressionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueExpressionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutablePostEntityValueRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableUpdateEntityRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/entities/ImmutableUpdateEntityRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/samples/ImmutableDeleteSampleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/samples/ImmutableDeleteSampleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/samples/ImmutableListSamplesRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/samples/ImmutableListSamplesRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/samples/ImmutablePostSampleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/samples/ImmutablePostSampleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/samples/ImmutableSampleToDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/client/samples/ImmutableSampleToDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableAnalysedMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableAnalysedMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableApplicationCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableApplicationCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableEntityValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableEntityValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableEntityWithValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableEntityWithValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableExtendedEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableExtendedEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/generated-sources/annotations/chattyer/nlp/wit/models/ImmutableValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-nlp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-nlp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/chattyer-persistence-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/chattyer-persistence-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/converters/ListResponseConverter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/converters/ListResponseConverter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/converters/ListResponseConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/converters/ListResponseConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/exceptions/ConversionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/exceptions/ConversionException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Chatbot$ChatbotBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Chatbot$ChatbotBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Chatbot.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Chatbot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Organization$OrganizationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Organization$OrganizationBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Organization.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Organization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Role$RoleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Role$RoleBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/RoleScope$RoleScopeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/RoleScope$RoleScopeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/RoleScope.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/RoleScope.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/RoleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/RoleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Space$SpaceBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Space$SpaceBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Space.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/Space.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/WitApplication$WitApplicationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/WitApplication$WitApplicationBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/WitApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/models/WitApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/package-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/package-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/repositories/ChatbotRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/repositories/ChatbotRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/repositories/OrganizationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/repositories/OrganizationRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/repositories/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/repositories/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/repositories/SpaceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/repositories/SpaceRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/classes/chattyer/persistence/repositories/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/chattyer-persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chattyer-persistence/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/chattyer/chattyer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/docker/chattyer/chattyer.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XrAVHBIbZ5iK41fGo3p6oEGaky" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/chattyer-web/src/main/java/io/chattyer/web/security" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Valentin Velkov\kymap\chattyer\chattyer-web\src\main\resources\static" />
+      <recent name="C:\Users\Valentin Velkov\kymap\chattyer\docs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="chattyer" />
+      <recent name="io.chattyer.web" />
+      <recent name="io.chattyer.nlp.wit" />
+      <recent name="io.chattyer" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.chattyer.web.exceptions" />
+      <recent name="io.chattyer.core.exceptions" />
+      <recent name="io.chattyer.nlp.wit.client" />
+      <recent name="io.chattyer.nlp.wit.client.samples" />
+      <recent name="io.chattyer.nlp.wit.client.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Valentin Velkov\kymap\chattyer\docs" />
+      <recent name="C:\Users\Valentin Velkov\kymap\chattyer" />
+      <recent name="C:\Users\Valentin Velkov\kymap\chattyer\chattyer-core\src\main\java\io\chattyer" />
+      <recent name="C:\Users\Valentin Velkov\kymap\chattyer\chattyer-nlp\src\main\java\io\chattyer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ChattyerWebApplication (1)">
+    <configuration name="ChattyerWebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chattyer-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.chattyer.web.app.ChattyerWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChattyerWebApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chattyer-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.chattyer.web.ChattyerWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChattyerWebApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chattyer-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="chattyer.ChattyerWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChattyerWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chattyer-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.chattyer.chattyerweb.ChattyerWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a56a199-727e-4185-8dc0-debf9dda1efe" name="Default Changelist" comment="" />
+      <created>1581793861640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581793861640</updated>
+      <workItem from="1581793865350" duration="1798000" />
+      <workItem from="1581848778583" duration="1199000" />
+      <workItem from="1583173569234" duration="3309000" />
+      <workItem from="1583507432129" duration="9930000" />
+      <workItem from="1583593783359" duration="11218000" />
+      <workItem from="1583611390803" duration="8781000" />
+      <workItem from="1583669559214" duration="22503000" />
+      <workItem from="1584637271036" duration="680000" />
+      <workItem from="1584868526768" duration="7125000" />
+      <workItem from="1584887689915" duration="6031000" />
+      <workItem from="1584893860895" duration="198000" />
+      <workItem from="1584901171942" duration="3858000" />
+      <workItem from="1584962263138" duration="7000" />
+      <workItem from="1585130813948" duration="19092000" />
+      <workItem from="1585173205134" duration="733000" />
+      <workItem from="1585320310487" duration="2438000" />
+      <workItem from="1585386113689" duration="431000" />
+      <workItem from="1585390409177" duration="5334000" />
+      <workItem from="1585398776573" duration="147000" />
+      <workItem from="1585402168509" duration="6581000" />
+      <workItem from="1585470260588" duration="5787000" />
+      <workItem from="1585491391021" duration="2092000" />
+      <workItem from="1585830926237" duration="1267000" />
+      <workItem from="1585987140854" duration="13825000" />
+      <workItem from="1586118568824" duration="22000" />
+      <workItem from="1586348984914" duration="2633000" />
+      <workItem from="1586590725691" duration="11989000" />
+      <workItem from="1586677920142" duration="3818000" />
+      <workItem from="1587024191240" duration="6858000" />
+      <workItem from="1587111307251" duration="5096000" />
+      <workItem from="1587198359095" duration="598000" />
+      <workItem from="1587283077303" duration="626000" />
+      <workItem from="1587289201020" duration="1442000" />
+      <workItem from="1587314818274" duration="198000" />
+      <workItem from="1587315021812" duration="606000" />
+      <workItem from="1587368091298" duration="11853000" />
+      <workItem from="1587400413596" duration="4168000" />
+      <workItem from="1587560719980" duration="7107000" />
+      <workItem from="1587643587798" duration="12055000" />
+      <workItem from="1587722541424" duration="5486000" />
+      <workItem from="1587740896700" duration="1080000" />
+      <workItem from="1587742083185" duration="8896000" />
+      <workItem from="1587805624461" duration="3551000" />
+      <workItem from="1587890270308" duration="4081000" />
+      <workItem from="1587990933553" duration="8068000" />
+      <workItem from="1588066555310" duration="4849000" />
+      <workItem from="1588092863267" duration="861000" />
+      <workItem from="1588104630787" duration="2291000" />
+      <workItem from="1588107057113" duration="2048000" />
+      <workItem from="1588163425796" duration="8342000" />
+      <workItem from="1588322937905" duration="4095000" />
+      <workItem from="1588348218024" duration="7832000" />
+      <workItem from="1588409877966" duration="19299000" />
+      <workItem from="1588491243880" duration="686000" />
+      <workItem from="1588500388203" duration="3099000" />
+      <workItem from="1588773637909" duration="2069000" />
+      <workItem from="1589025684961" duration="6024000" />
+      <workItem from="1589094923339" duration="2795000" />
+      <workItem from="1589114401821" duration="10864000" />
+      <workItem from="1590820343190" duration="24495000" />
+      <workItem from="1590930510289" duration="140000" />
+      <workItem from="1590940304246" duration="2675000" />
+      <workItem from="1591536450420" duration="241000" />
+      <workItem from="1591540723095" duration="2424000" />
+      <workItem from="1592044251374" duration="5490000" />
+      <workItem from="1592073105774" duration="9941000" />
+      <workItem from="1592248685574" duration="1583000" />
+      <workItem from="1592655251277" duration="6386000" />
+      <workItem from="1592930910326" duration="2851000" />
+      <workItem from="1593170570571" duration="5042000" />
+      <workItem from="1593263529884" duration="4942000" />
+      <workItem from="1593354025816" duration="10546000" />
+      <workItem from="1593677431729" duration="9001000" />
+      <workItem from="1593795225686" duration="5290000" />
+      <workItem from="1593856539265" duration="1887000" />
+      <workItem from="1593946488564" duration="6071000" />
+      <workItem from="1593973612458" duration="10176000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Valentin Velkov/kymap/chattyer/chattyer-persistence/src/main/java/io/chattyer/persistence/models" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="646" y="302" width="627" height="556" key="find.popup" timestamp="1610479514003">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="646" y="302" width="627" height="556" key="find.popup/0.0.1920.1160/-1920.0.1920.1040@0.0.1920.1160" timestamp="1610479514003" />
+  </component>
+</project>

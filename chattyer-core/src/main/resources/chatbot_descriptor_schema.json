@@ -1,0 +1,106 @@
+{
+  "type": "object",
+  "id": "urn:jsonschema:io:chattyer:core:models:ChatbotDescriptor",
+  "required": [
+    "schema-version",
+    "name",
+    "intents",
+    "samples",
+    "responses"
+  ],
+  "properties": {
+    "schema-version": {
+      "type": "string",
+      "enum": [
+        "1.0"
+      ]
+    },
+    "intents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "id": "urn:jsonschema:io:chattyer:core:models:Intent",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    "samples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "id": "urn:jsonschema:io:chattyer:core:models:Sample",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "metadata": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "id": "urn:jsonschema:io:chattyer:core:models:Sample:MetadataEntity",
+              "properties": {
+                "value": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "location",
+                    "datetime"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "type"
+              ]
+            }
+          },
+          "intent": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "text",
+          "intent"
+        ]
+      }
+    },
+    "responses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "id": "urn:jsonschema:io:chattyer:core:models:Response",
+        "required": [
+          "intent",
+          "value",
+          "type"
+        ],
+        "properties": {
+          "intent": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "static",
+              "http_call_generated"
+            ]
+          }
+        }
+      }
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+schema-version: "1.0"
+name: Example
+language: bg
+
+intents:
+  - name: hello
+  - name: goodbye
+
+samples:
+  - text: "Здравейте!"
+    intent: hello
+  - text: "Здравей"
+    intent: hello
+  - text: "Добър ден"
+    intent: hello
+  - text: "Довиждане"
+    intent: goodbye
+  - text: "Чао"
+    intent: goodbye
+
+responses:
+  - type: static
+    intent: hello
+    value: "Здравейте! С какво мога да помогна? 😊"
+  - type: static
+    intent: goodbye
+    value: "Довиждане! Винаги съм готов да помогна при нужда от помощ :)"

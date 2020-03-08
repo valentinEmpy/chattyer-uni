@@ -1,0 +1,42 @@
+schema-version: "1.0"
+name: TestApiFinal
+
+
+intents:
+  - name: book_flight
+  - name: ride_bicycle
+
+samples:
+  - text: "I would like to book a flight"
+    intent: book_flight
+
+  - text: "Traveling means I need to buy a ticket for a plane"
+    intent: book_flight
+
+  - text: "Flying abroad, therefore I need to book a ticket"
+    intent: book_flight
+
+  - text: "I really want to fly so I need to book a flight"
+    intent: book_flight
+
+  - text: "I have a new bicycle I would like to ride today"
+    intent: ride_bicycle
+
+  - text: "I want to ride"
+    intent: ride_bicycle
+
+  - text: "I have a bicycle but there is no one to ride with"
+    intent: ride_bicycle
+
+  - text: "Do you want to ride with me?"
+    intent: ride_bicycle
+
+responses:
+  - type: static
+    intent: book_flight
+    value: "You can find more information about our flights at www.flights.com and book a ticket from there"
+
+  - type: http_call_generated
+    intent: ride_bicycle
+    value: http://google.com
+

@@ -1,0 +1,4 @@
+SSH into Postgresql from Docker:
+	$ winpty docker exec -it chattyer-postgresql bash
+	# su postgres
+	$ psql

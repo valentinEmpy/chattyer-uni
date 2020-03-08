@@ -1,0 +1,99 @@
+<mvc:View controllerName="chattyer.controller.MainPage" busyIndicatorDelay="0" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m" 
+    xmlns:f="sap.f" 
+    xmlns:tnt="sap.tnt" 
+    xmlns:control="chattyer.control">
+    <Page id="page">
+        <f:FlexibleColumnLayout id="contentColumnLayout" autoFocus="false" layout="OneColumn" backgroundDesign="Transparent">
+            <f:beginColumnPages>
+                <ScrollContainer vertical="true" height="100%">
+                    <VBox class="sapUiSmallMargin" width="90%">
+                        <HBox alignItems="Center">
+                            <Button class="sapUiTinyMarginBegin" icon="sap-icon://add" press="onOrganizationAddPress"/>
+                            <Button id="orgsDeleteButton" class="sapUiTinyMarginBegin" icon="sap-icon://delete" press="onOrganizationsDeletePress"/>
+                            <Title text="Organizations" class="sapUiSmallMarginBegin" titleStyle="H3"/>
+                        </HBox>
+                        <f:GridContainer class="sapUiTinyMarginTop" items="{/organizations}">
+                            <f:layout>
+                                <f:GridContainerSettings rowSize="82px" columnSize="82px" gap="12px" />
+                            </f:layout>
+                            <f:layoutXS>
+                                <f:GridContainerSettings rowSize="70px" columnSize="70px" gap="12px" />
+                            </f:layoutXS>
+                            <GenericTile scope="{/orgMode}" frameType="OneByOne" header="{name}" subheader="created by {createdBy}" press="onOrganizationPress($event, ${name}, ${id})">
+                                <layoutData>
+                                    <f:GridContainerItemLayoutData columns="2" />
+                                </layoutData>
+                                <TileContent>
+                                    <HBox alignItems="End" fitContainer="true">
+                                        <tnt:InfoLabel displayOnly="true" colorScheme="{= ${spaces}.length > 0 ? 7 : 2}" text="{= ${spaces}.length > 0 ?  ${spaces}.length + ' spaces' : 'EMPTY'}"/>
+                                    </HBox>
+                                </TileContent>
+                            </GenericTile>
+                        </f:GridContainer>
+                    </VBox>
+                </ScrollContainer>
+            </f:beginColumnPages>
+            <f:midColumnPages>
+                <ScrollContainer vertical="true" horizontal="false" height="100%">
+                    <VBox class="sapUiSmallMargin" width="90%">
+                        <HBox alignItems="Center">
+                            <Button class="sapUiTinyMarginBegin" icon="sap-icon://add" press="onSpaceAddPress"/>
+                            <Button id="spacesDeleteButton" class="sapUiTinyMarginBegin" icon="sap-icon://delete" press="onSpaceDeletePress"/>
+                            <Title text="Spaces - {/selectedOrganizationName}" class="sapUiSmallMarginBegin" titleStyle="H3"/>
+                        </HBox>
+                        <f:GridContainer id="spacesGrid" class="sapUiTinyMarginTop" items="{/spaces}">
+                            <f:layout>
+                                <f:GridContainerSettings rowSize="82px" columnSize="82px" gap="12px" />
+                            </f:layout>
+                            <f:layoutXS>
+                                <f:GridContainerSettings rowSize="70px" columnSize="70px" gap="12px" />
+                            </f:layoutXS>
+                            <GenericTile scope="{/spacesMode}" header="{name}" subheader="created by {createdBy}" press="onSpacePress($event, ${name}, ${id})">
+                                <layoutData>
+                                    <f:GridContainerItemLayoutData columns="2" />
+                                </layoutData>
+                                <TileContent>
+                                    <HBox alignItems="End" fitContainer="true">
+                                        <tnt:InfoLabel displayOnly="true" colorScheme="{= ${chatbots}.length > 0 ? 7 : 2}" text="{= ${chatbots}.length > 0 ?  ${chatbots}.length + ' chatbots' : 'EMPTY'}"/>
+                                    </HBox>
+                                </TileContent>
+                            </GenericTile>
+                        </f:GridContainer>
+                    </VBox>
+                </ScrollContainer>
+            </f:midColumnPages>
+            <f:endColumnPages>
+                <ScrollContainer vertical="true" height="100%">
+                    <VBox class="sapUiSmallMargin" width="90%">
+                        <HBox alignItems="Center">
+                            <Button class="sapUiTinyMarginBegin" icon="sap-icon://add" press="onChatbotAddPress"/>
+                            <Button id="chatbotsDeleteButton" class="sapUiTinyMarginBegin" icon="sap-icon://delete" press="onChatbotDeletePress"/>
+                            <control:ChatDialog class="sapUiTinyMarginBegin" id="chatbotDialog" title="Chat" height="800px" width="400px" send="onChatMessageSent" robotIcon="https://i.ibb.co/68pRS7s/chattyer-logo.png" buttonIcon="sap-icon://discussion"/>
+                            <Title text="Chatbots - {/selectedSpaceName}" class="sapUiTinyMarginBegin" titleStyle="H3"/>
+                        </HBox>
+                        <f:GridContainer id="chatbotsGrid" class="sapUiTinyMarginTop" items="{/chatbots}">
+                            <f:layout>
+                                <f:GridContainerSettings rowSize="82px" columnSize="82px" gap="12px" />
+                            </f:layout>
+                            <f:layoutXS>
+                                <f:GridContainerSettings rowSize="70px" columnSize="70px" gap="12px" />
+                            </f:layoutXS>
+                            <GenericTile scope="{/chatbotsMode}" frameType="OneByOne" header="{name}" subheader="created by {createdBy}" press="onChatbotPress($event, ${name}, ${id})">
+                                <layoutData>
+                                    <f:GridContainerItemLayoutData columns="2" />
+                                </layoutData>
+                                <TileContent>
+                                    <HBox alignItems="End" fitContainer="true">
+                                        <tnt:InfoLabel displayOnly="true" text="{status}"/>
+                                    </HBox>
+                                </TileContent>
+                            </GenericTile>
+                        </f:GridContainer>
+                    </VBox>
+                </ScrollContainer>
+            </f:endColumnPages>
+        </f:FlexibleColumnLayout>
+    </Page>
+</mvc:View>
